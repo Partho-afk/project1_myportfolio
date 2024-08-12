@@ -59,7 +59,40 @@ strong {
 
 img {
   max-width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.use_card {
+  border-width: 1px;
+  border-style: solid;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.use_card .use_card_image {
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+.use_card .use_card_title {
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#superman_id {
+  border-style: dashed;
+}
+
+.card {
+  background-color: rgb(105, 156, 204);
+
 }
 
 /*# sourceMappingURL=app.css.map */
