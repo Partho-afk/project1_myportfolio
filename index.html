@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/styles/app.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="./assets/styles/app.css"> -->
     
 </head>
 <body>
@@ -12,12 +15,271 @@
         Hello partho1
     </h1> -->
 
-    <div class="use_card public_card card" id="superman_id">
+     <!-- <div class="use_card public_card card" id="superman_id">
         <img class="use_card_image" src="https://imgs.search.brave.com/AKmU1612aDAvfg-FTle9YdYA3ESAYWXIMRL1KjjuZ1w/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzljLzE3/Lzc2LzljMTc3NjZk/ZDQ1ZDg3NjU1YzAx/YTk4ZjllMTJmMTU0/LmpwZw" >
         <h2 class="use_card_title"> Super Man</h2>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate maiores cumque veniam dolor iusto aspernatur odit ullam! Earum, soluta pariatur expedita quibusdam nesciunt ex. Quas obcaecati et animi ducimus ipsum?
         </p>
+    </div>   -->
+
+    <!-- 
+Html tags
+
+    Headings
+        h1
+        h2
+        h3
+        h4
+        h5
+        h6
+
+    paragraph
+        p
+        b
+        strong
+        i
+        u
+        span
+        sub
+        sup
+        del
+    
+    box
+        header
+        nav
+        section
+        main       //simentic tag
+        aside
+        footer
+        article
+
+        div
+
+    
+
+    image
+        img
+        figure
+        caption
+
+    viedo
+        video
+        iframe
+
+    table
+        thead
+        tbody
+        tr
+        td
+        tfoot
+    
+    list
+        ul
+        ol
+        dl
+
+    form
+
+css
+   
+    text
+        color
+        font-family
+        font-wright
+        font-style 
+        font-size
+        line-height
+     
+
+    box
+        height
+        widht
+        background  
+            color
+            image
+            gradient
+        padding
+        margin
+        border
+            color
+            style
+            radius
+        display
+            flex
+            grid
+            float
+            block
+            inlibe-block
+            inline
+-->
+    <!-- <style>
+        
+        @font-face {
+            font-family: "GreyQo-Regular";
+            src: url("assets/fonts/GreyQo-Regular.ttf");
+        }
+
+        :root{
+            --debug_border: 5px solid rgb(9, 182, 35);
+            --font_v1_regular: "GreyQo-Regular";
+
+        }
+        .box_el{
+            height: 250px;
+            width: 500px;
+            border: var(--debug_border);
+            margin-bottom: 30px;
+            padding: 30px; 
+            border-radius: 10px;
+            background-image: url("https://imgs.search.brave.com/D84WVLvnr30IftQYWAuxzO8BOSh4DcYjRuoszuZm0a0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC9jVVpQMVdX/LmpwZw");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+            /* background: rgb(157,38,207);
+            background: linear-gradient(90deg, rgba(157,38,207,0.2274159663865546) 35%, rgba(0,212,255,0.47951680672268904) 100%); */       } 
+        .heading{
+                font-family: var(--font_v1_regular), cursive;
+                font-weight: bold;
+                font-style: italic;
+                font-size: 30px;
+            }
+
+    </style>
+ <div class="box_el ">
+    <h1 class="heading">
+        I am Super slow
+    </h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, veritatis!
+    </p>
+    <a>
+        go to
+        <u>
+            google.com
+        </u>
+        
+    </a>
+
+    <figure>
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cbr.com%2Fsuperman-sports-striking-white-costume-justice-league-mech-dc%2F&psig=AOvVaw1iLyYSbYbOOBvR0csclI-x&ust=1723709819827000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCND6rs-F9IcDFQAAAAAdAAAAABAE">
+      </figure>
+      
+ </div>
+
+ <style>
+    
+    .box_el2{
+
+        --debug_border: 5px solid rgb(196, 28, 225);
+        border: var(--debug_border);
+        
+    }
+ </style>
+ <div class="box_el box_el2">
+
+
+ </div> -->
+    <style>
+        :root{
+            --border: 1px solid rgb(234, 6, 234);
+        }
+        .box{
+            border: var(--border);
+            border-style:solid;
+            border-radius: 20px;
+            padding: 20px;
+            background-color:rgb(143, 74, 208);
+            
+        }
+        .header_box{
+            display: grid;
+            border-radius: 0%;
+            background-color: rgb(52, 203, 208);
+            grid-template-columns: 120px 1fr 150px;
+            column-gap: 25px;
+        }
+
+        .header_button{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <div class="box header_box">
+        <div class="box">
+            logo
+        </div>
+            
+        <div class="box">
+            link
+        </div>
+
+        <div class="box header_button">
+            <button>push</button>
+        </div>
     </div>
+
+    <style>
+        .banner_box{
+            background-color: rgb(211, 173, 122);
+            display: grid;
+            border-radius: 0%;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 30px;
+        }
+
+        .box_image{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .banner_part{
+            background-color: rgb(231, 167, 167);
+            display: grid;
+            column-gap: 30px;
+            grid-template-columns: 120px 1fr;
+        }
+
+        .banner_part2{
+            background-color: rgb(117, 201, 117);
+            display: grid;
+            column-gap: 25px;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+          
+        
+    </style>
+
+    <div class="box banner_box">
+        <div class="box">
+            <h2>It's all about DC</h2>
+            <h1>The hierarchy of power is about to change</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, tempore distinctio omnis nostrum sed optio ut quasi odit voluptates, et explicabo incidunt! Ab delectus cupiditate suscipit, assumenda dolore beatae corporis., ipsum dolor sit amet consectetur adipisicing elit. Nisi, itaque?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates consequatur itaque veritatis adipisci molestias? Non, praesentium ipsam dicta eligendi illum blanditiis voluptatem temporibus cum, nobis eaque eius qui ut pariatur.
+            </p>
+            <div class="box banner_part">
+                <div class="box banner_part2">
+                    <button>Download CV</button>
+                </div>
+                <div class="box banner_part2">
+                    <button>f</button>
+                    <button>y</button>
+                    <button>in</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="box box_image">
+            
+                <img src="https://upload.wikimedia.org/wikipedia/en/c/c1/Batman_and_Superman_Battle_of_the_Super_Sons_poster.jpg" alt="">
+            
+        </div>
+    </div>
+    
+ 
 </body>
 </html>
