@@ -1,5 +1,16 @@
+@import "./abstracts/fonts";
+@import "./abstracts/variables";
 @import "./abstracts/reset";
 
+/** utilities **/
+@import "./utilities/container";
+@import "./utilities/box";
+
+/** components **/
 @import "./components/usercard";
+@import "./components/navbar";
+
+/** pages **/
+@import "./pages/home";
 
 

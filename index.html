@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,17 @@
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap" rel="stylesheet"> -->
-    <!-- <link rel="stylesheet" href="./assets/styles/app.css"> -->
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/styles/app.css">
+
 </head>
+
 <body>
-   <!-- <h1>
+    <!-- <h1>
         Hello partho1
     </h1> -->
 
-     <!-- <div class="use_card public_card card" id="superman_id">
+    <!-- <div class="use_card public_card card" id="superman_id">
         <img class="use_card_image" src="https://imgs.search.brave.com/AKmU1612aDAvfg-FTle9YdYA3ESAYWXIMRL1KjjuZ1w/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzljLzE3/Lzc2LzljMTc3NjZk/ZDQ1ZDg3NjU1YzAx/YTk4ZjllMTJmMTU0/LmpwZw" >
         <h2 class="use_card_title"> Super Man</h2>
         <p>
@@ -182,104 +185,224 @@ css
 
  </div> -->
     <style>
-        :root{
-            --border: 1px solid rgb(234, 6, 234);
-        }
-        .box{
-            border: var(--border);
-            border-style:solid;
-            border-radius: 20px;
-            padding: 20px;
-            background-color:rgb(143, 74, 208);
-            
-        }
-        .header_box{
-            display: grid;
-            border-radius: 0%;
-            background-color: rgb(52, 203, 208);
-            grid-template-columns: 120px 1fr 150px;
-            column-gap: 25px;
-        }
-
-        .header_button{
+        .header_adjustment {
             display: grid;
             justify-content: center;
             align-items: center;
         }
     </style>
-    <div class="box header_box">
-        <div class="box">
-            logo
-        </div>
-            
-        <div class="box">
-            link
-        </div>
-
-        <div class="box header_button">
-            <button>push</button>
-        </div>
-    </div>
-
-    <style>
-        .banner_box{
-            background-color: rgb(211, 173, 122);
-            display: grid;
-            border-radius: 0%;
-            grid-template-columns: 1fr 1fr;
-            column-gap: 30px;
-        }
-
-        .box_image{
-            display: grid;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .banner_part{
-            background-color: rgb(231, 167, 167);
-            display: grid;
-            column-gap: 30px;
-            grid-template-columns: 120px 1fr;
-        }
-
-        .banner_part2{
-            background-color: rgb(117, 201, 117);
-            display: grid;
-            column-gap: 25px;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-          
-        
-    </style>
-
-    <div class="box banner_box">
-        <div class="box">
-            <h2>It's all about DC</h2>
-            <h1>The hierarchy of power is about to change</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, tempore distinctio omnis nostrum sed optio ut quasi odit voluptates, et explicabo incidunt! Ab delectus cupiditate suscipit, assumenda dolore beatae corporis., ipsum dolor sit amet consectetur adipisicing elit. Nisi, itaque?
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates consequatur itaque veritatis adipisci molestias? Non, praesentium ipsam dicta eligendi illum blanditiis voluptatem temporibus cum, nobis eaque eius qui ut pariatur.
-            </p>
-            <div class="box banner_part">
-                <div class="box banner_part2">
-                    <button>Download CV</button>
+    <header id="header">
+        <div class="container">
+            <div class=" navbar">
+                <div class=" logo">
+                    <img src="https://themejunction.net/html/gerold/demo/assets/img/logo/logo-dark.png" alt="">
                 </div>
-                <div class="box banner_part2">
-                    <button>f</button>
-                    <button>y</button>
-                    <button>in</button>
+
+                <div class=" email">
+                    <a href="mail@gerolddesign.com" target="_blank">
+                        mail@gerolddesign.com
+                    </a>
+                </div>
+
+                <div class=" nav_list">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolios</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class=" hire_me_button">
+                    <a href="#">
+                        hire me!
+                    </a>
                 </div>
             </div>
         </div>
-
-        <div class="box box_image">
-            
-                <img src="https://upload.wikimedia.org/wikipedia/en/c/c1/Batman_and_Superman_Battle_of_the_Super_Sons_poster.jpg" alt="">
-            
-        </div>
-    </div>
+    </header>
     
- 
+    <section>
+        <div class="container">
+            <div class="banner_box">
+                <div class="hi_el">
+                    HI
+                </div>
+                <div class="left">
+                    <h2 class="sub_heading">I am Partho</h2>
+                    <h1 class="heading">UX Designer + SQA Engineer</h1>
+                    <p class="banner_description">
+                        Leverage my expertise in UX design and quality assurance to create user-centered designs and ensure high-quality,
+                        bug-free products through rigorous testing and continuous improvement.
+                    </p>
+                    <div class="banner_part">
+                        <div class="download_cv">
+                            <a href="#" class="cv_button">
+                                <span>
+                                    Download CV
+                                </span>
+                                <i class="fa-solid fa-circle-arrow-down"></i>
+                            </a>
+                        </div>
+                        <div class="">
+                            <ul class="social_icons">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-discord"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right">
+
+                    <img src="https://themejunction.net/html/gerold/demo/assets/img/hero/me.png" alt="">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container banner_bottom">
+            <div class="box banner_bottom">
+                <div class="box banner_bot_h">
+                    <h1> 14 </h1>
+                </div >
+                <div class="box banner_bot_h2">
+                    <h3> Years of Experience </h3>
+                </div>
+            </div>
+            <div class="box banner_bottom">
+                <div class="box box banner_bot_h">
+                    <h1> 50+ </h1>
+                </div>
+                <div class="box banner_bot_h2">
+                    <h2> Project Completed </h2>
+                </div>
+            </div>
+            <div class="box banner_bottom">
+                <div class="box box banner_bot_h">
+                    <h1> 1.5K </h1>
+                </div>
+                <div class="box banner_bot_h2">
+                    <h3> Happy Clients</h3>
+                </div>
+            </div>
+            <div class="box banner_bottom">
+                <div class="box banner_bot_h">
+                    <h1> 14 </h1>
+                </div>
+                <div class="box banner_bot_h2">
+                    <h3> Years of Experience </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .text_center {
+            text-align: center;
+        }
+
+        .project_filter {
+            border: var(--border);
+            padding: 0%;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            column-gap: 20px;
+
+            li {
+                border: var(--border);
+            }
+        }
+
+        .project_list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+
+            .project_item {
+                img {
+                    width: 100%;
+                }
+            }
+
+
+        }
+    </style>
+
+    <section>
+        <div class="container">
+            <div class="box">
+                <div class="section_heading">
+                    <h1 class="text_center">My Recent Works</h1>
+                </div>
+                <div class="section_pg">
+                    <p class="text_center">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, autem.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <ul class="project_filter">
+                    <li>
+                        <a href="">All</a>
+                    </li>
+                    <li>
+                        <a href="">UX</a>
+                    </li>
+                    <li>
+                        <a href="">Design</a>
+                    </li>
+                    <li>
+                        <a href="">Development</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="project_list">
+                    <div class="project_item">
+                        <img src="https://themejunction.net/html/gerold/demo/assets/img/portfolio/2.jpg" alt="">
+                    </div>
+                    <div class="project_item">
+                        <img src="https://themejunction.net/html/gerold/demo/assets/img/portfolio/2.jpg" alt="">
+                    </div>
+                    <div class="project_item">
+                        <img src="https://themejunction.net/html/gerold/demo/assets/img/portfolio/2.jpg" alt="">
+                    </div>
+                    <div class="project_item">
+                        <img src="https://themejunction.net/html/gerold/demo/assets/img/portfolio/2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
+
 </html>
